@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  font-family: Arial;
+}
+
+body {
+  background-color: #e3e3e3;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 60px;
+  width: 150px;
+}
+
+.logo {
+  background-image: url("Flipkart-logo.png");
+  height: 45px;
+  width: 100%;
+  background-size: cover;
+}
+
+ul a {
+  font-size: 0.85rem;
+}
+
+.first {
+  color: #9e9e9e;
+  font-weight: bold;
+}
+
+.second {
+  color: #ffc200;
+  font-weight: bold;
+}
+.nav-search {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  border: 2px solid transparent;
+  background-color: #cee1ed;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.nav-search:hover {
+  box-shadow: 0 0 4px blue;
+}
+
+.search-input {
+  height: 35px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  background-color: #cee1ed;
+  text-align: left;
+}
+
+.search-icon {
+  height: 35px;
+  width: 40px;
+
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav-final {
+  height: 40pxpx;
+  width: 445px;
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.sell-ops {
+  height: 24px;
+  width: 195;
+  display: flex;
+}
+
+.sell-ops a {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.sell-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.signin-div {
+  display: flex;
+  height: 40px;
+  width: 121px;
+}
+
+.signin-div a {
+  font-size: 16px;
+}
+
+.signin-logo {
+  height: 24px;
+  width: 24px;
+}
+
+.nav-cart {
+  height: 25px;
+  width: 105px;
+  display: flex;
+}
+
+.nav-cart a {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.cart-logo {
+  height: 24px;
+  width: 24px;
+}
+.menu {
+  height: 40px;
+  width: 100px;
+}
+/* box2 */
+
+.box2 {
+  height: 145px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pic {
+  height: 142px;
+  width: 130px;
+}
+
+.pic p {
+  font-weight: bold;
+}
+
+.image {
+  height: 64px;
+  width: 64px;
+  background-size: cover;
+  position: relative;
+  top: 15px;
+}
+
+.image:hover {
+  box-shadow: 0 0 2px black;
+}
+
+/* hero-section */
+
+.hero-section {
+  height: 196px;
+  background-image: url("hero3.webp");
+  background-size: cover;
+  margin-top: 10px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.hero-section:hover {
+  /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out; */
+  transform: scale(1.1);
+  box-shadow: 0 0 4px yellow;
+}
+
+/* box3 */
+
+.box3 {
+  height: 80px;
+
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.box3-text {
+  font-size: 20px;
+  height: 28px;
+  font-weight: bolder;
+  position: relative;
+  left: 15px;
+  top: 25px;
+}
+
+/* box4 */
+
+.box4 {
+  height: 265px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.photo {
+  height: 252px;
+  width: 200px;
+  border: 1.5px solid grey;
+  text-align: center;
+}
+
+.photo1 {
+  background-size: cover;
+  height: 185px;
+  width: 185px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.photo-text {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.photo-price {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+/* box5 and 6 */
+
+.box5 {
+  height: 80px;
+
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.box5-text {
+  font-size: 20px;
+  height: 28px;
+  font-weight: bolder;
+  position: relative;
+  left: 15px;
+  top: 25px;
+}
+
+/* box6 */
+
+.box6 {
+  height: 265px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer */
+
+.foot-panel {
+  height: 250px;
+  background-color: #21211f;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fist-ops {
+  margin-top: 35px;
+}
+
+.foot-text p {
+  color: #878787;
+  font-size: 0.75rem;
+}
+
+.second a {
+  display: block;
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+
+.add p {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+
+.second {
+  margin-top: 15px;
+}
+
+.line {
+  height: 190px;
+  width: 5px;
+  border-right: 2px solid #3b577a;
+  position: relative;
+  top: 35px;
+  left: 45px;
+}
+
+.final-footer {
+  height: 70px;
+  background-color: #21211f;
+}
+
+.final-footer {
+  border-top: 1px solid #3b577a;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.final-msg {
+  height: 18px;
+  width: 113px;
+  display: flex;
+}
+
+.final-logo {
+  background-image: url("final-logo.svg");
+  height: 12px;
+  width: 13px;
+  color: yellow;
+}
+
+.final-text {
+  font-size: 0.7rem;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.final-span {
+  color: #ffffff;
+  font-size: 0.7rem;
+}
+
+.brands {
+  height: 20px;
+  width: 420px;
+  background-image: url("brands.svg");
+  background-size: cover;
+}
